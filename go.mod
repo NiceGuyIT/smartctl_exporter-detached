@@ -1,7 +1,6 @@
 module github.com/prometheus-community/smartctl_exporter
 
-go 1.21
-toolchain go1.22.5
+go 1.23
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
@@ -9,7 +8,7 @@ require (
 	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/common v0.61.0
 	github.com/prometheus/exporter-toolkit v0.13.2
-	github.com/tidwall/gjson v1.18.0
+	github.com/tidwall/gjson v1.19.0
 )
 
 require (
